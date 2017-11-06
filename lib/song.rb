@@ -36,6 +36,6 @@ class Song
     artist_count = {}
     @@artists.uniq.each {|artist| artist_count[artist] = 0}
     @@artists.each {|artist| artist_count[artist] += 1}
-    genre_count
+    artist_count
   end
 end
